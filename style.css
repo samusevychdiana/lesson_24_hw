@@ -14,7 +14,7 @@
     font-weight: 700;
     line-height: 100%;
     color: #000;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     margin-top: 24px;
     margin-left: 215px;
 }
@@ -38,8 +38,32 @@
     color: var(--title-color);         
     font-size: 14px;
     font-weight: 500;
-    line-height: 100%;
-    letter-spacing: 2%;
+    line-height: normal;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    margin-left: auto;  /* штовхає вправо */
+    display: flex;
+    gap: 50px;
+}
+
+.contacts p {
+    font-family: var(--primary-text);
+    margin: 0;   /* прибираємо стандартні відступи p */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02em;
+
+}
+
+.email {
+    color: var(--primary-color);
+}
+
+.number {
+    color: var(--text-color);
 }
 
 .title {
@@ -48,9 +72,8 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     margin-top: 80px;
-    margin-bottom: 696px;
     text-align: center;
 }
 
@@ -65,7 +88,89 @@
     line-height: 30px;
     cursor: pointer;
     text-align: center;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     border-radius: 4px;
     border: none;
+}
+
+.info {
+    text-align: center;
+}
+
+.need {
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.text {
+    font-family: var(--primary-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    width: 270px;
+}
+
+.needs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.do {
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.doing {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.doing img {
+    width: 370px;
+    height: 294px;
+}
+
+.team img {
+    width: 270px;
+    height: 260px;
+}
+
+.team h4 {
+    font-family: var(--primary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team p {
+    font-family: var(--primary-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.peoples {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
 }
