@@ -8,6 +8,14 @@
     --background-color: #2F303A;
 }
 
+.menu {
+    width: 1600px;
+    height: 80px;
+    background-color: #ECECEC;
+    padding-left: 215px;
+    padding-top: 24px;
+}
+
 .logo {
     font-family: var(--title-text);
     font-size: 26px;
@@ -15,8 +23,6 @@
     line-height: 100%;
     color: #000;
     letter-spacing: 0.03em;
-    margin-top: 24px;
-    margin-left: 215px;
 }
 
 .logo span {
@@ -40,6 +46,8 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-left: 453px;
 }
 
 .contacts {
@@ -69,12 +77,13 @@
 .title {
     text-transform: uppercase;
     font-family: var(--primary-text);
+    color: var(--secondary-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
-    margin-top: 80px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -91,10 +100,19 @@
     letter-spacing: 0.06em;
     border-radius: 4px;
     border: none;
+    width: 216px;
+    height: 50px;
 }
 
 .info {
     text-align: center;
+    background-color: #2F303A;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .need {
@@ -118,6 +136,8 @@
 
 .needs {
     display: flex;
+    padding-top: 94px;
+    padding-left:  215px;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
@@ -131,6 +151,10 @@
     letter-spacing: 0.03em;
     color: var(--title-color);
     text-align: center;
+    justify-content: center;
+    margin-top: 94px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .doing {
@@ -138,11 +162,18 @@
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .doing img {
     width: 370px;
     height: 294px;
+}
+
+.team {
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
 }
 
 .team img {
@@ -157,6 +188,7 @@
     line-height: normal;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    margin-top: 30px;
 }
 
 .team p {
@@ -172,5 +204,13 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 648px;
+    background-color: #F5F4FA;
+    margin-top: 94px;
+}
+
+.komanda {
     justify-content: center;
 }
