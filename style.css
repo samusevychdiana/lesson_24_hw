@@ -9,61 +9,52 @@
 }
 
 .menu {
-    width: 1600px;
-    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 215px;
     background-color: #ECECEC;
-    padding-left: 215px;
-    padding-top: 24px;
+    height: 80px;
 }
 
 .logo {
     font-family: var(--title-text);
     font-size: 26px;
     font-weight: 700;
-    line-height: 100%;
-    color: #000;
-    letter-spacing: 0.03em;
-}
-
-.logo span {
     color: var(--primary-color);
 }
 
+.logo span {
+    color: #000000;
+}
+
 .nav ul {
-    list-style: none;       /* прибирає крапки */
-    padding: 0px;
-    display: flex;          /* робить елементи в ряд */
-    gap: 50px;              /* відстань між пунктами */
-    margin-top: 0px;
-    margin-left: 453px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav a {
     font-family: var(--primary-text);
-    text-decoration: none;  /* без підкреслення */
-    color: var(--title-color);         
-    font-size: 14px;
+    text-decoration: none;
+    color: var(--title-color);
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-left: 453px;
+    font-size: 14px;
 }
 
 .contacts {
-    margin-left: auto;  /* штовхає вправо */
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .contacts p {
     font-family: var(--primary-text);
-    margin: 0;   /* прибираємо стандартні відступи p */
+    margin: 0;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.02em;
-
 }
 
 .email {
@@ -100,7 +91,7 @@
     letter-spacing: 0.06em;
     border-radius: 4px;
     border: none;
-    width: 216px;
+    width: 250px;
     height: 50px;
 }
 
@@ -112,7 +103,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .need {
@@ -137,7 +128,7 @@
 .needs {
     display: flex;
     padding-top: 94px;
-    padding-left:  215px;
+    padding-left: 215px;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
@@ -150,11 +141,11 @@
     line-height: normal;
     letter-spacing: 0.03em;
     color: var(--title-color);
-    text-align: center;
-    justify-content: center;
     margin-top: 94px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .doing {
@@ -202,15 +193,63 @@
 
 .peoples {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
-    justify-content: center;
     align-items: center;
     height: 648px;
     background-color: #F5F4FA;
     margin-top: 94px;
 }
 
+.team-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .komanda {
     justify-content: center;
+}
+
+.footer {
+    background-color: var(--background-color);
+    height: 252px;
+    padding: 60px 215px;
+}
+
+.logo_a {
+    font-family: var(--title-text);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.logo_a span {
+    color: var(--secondary-color);
+}
+
+.city {
+    font-family: var(--primary-text);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+
+.email_a {
+    font-family: var(--primary-text);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
+}
+
+.number_a {
+    font-family: var(--primary-text);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
